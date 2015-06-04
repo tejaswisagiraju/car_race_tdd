@@ -33,6 +33,7 @@ RSpec.describe Race do
       it 'is no the winner' do
         expect(race.loser).not_to eq race.winner
       end
-    end
+   end
   end
+
 end
